@@ -4,7 +4,7 @@ import React, { useState, useEffect } from "react";
 
 function App() {
  const client = axios.create({
-  baseURL: "https://20.168.8.95:1880/modbus",
+  baseURL: "https://suriotapi.space/modbus",
  });
 
  const [posts, setPosts] = useState({
